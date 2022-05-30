@@ -1,0 +1,23 @@
+{
+  "name": "note-takr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camkaras/note-takr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camkaras/note-takr/issues"
+  },
+  "homepage": "https://github.com/camkaras/note-takr#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
