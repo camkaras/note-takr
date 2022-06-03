@@ -1,5 +1,6 @@
 const { notes } = require('./data/db');
 const express = require('express');
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 
@@ -9,6 +10,6 @@ app.get('/api/db', (req, res) => {
     res.json(results);
 });
 
-app.listen(3001, () => {
-    console.log(`Note-Taker server now on port 3001!`);
+app.listen(PORT, () => {
+    console.log(`Note-Taker server now on port ${PORT}!`);
 });
