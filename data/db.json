@@ -1,28 +1,24 @@
-
-
 {
-    "notes": [
-        [
-            {
-                "id": "8",
-                "name": "Note",
-                "description": "Appointment",
-                "date": "Tuesday",
-                "details": [
-                    "doctor"
-                ]
-            }
-        ],
-        [
-            {
-                "id": "9",
-                "name": "Dentist",
-                "description": "Appointment",
-                "date": "Thursday",
-                "details": [
-                    "cavity"
-                ]
-            }
-        ]
-    ]
+  "notes": [
+    [
+      {
+        "title": "Test-Note-1",
+        "text": "Oranges are green??"
+      }
+    ],
+    [
+      {
+        "title": "Test-Note-2",
+        "text": "Apples make cheesestrings"
+      }
+    ],
+    {
+      "title": "Test-Note-3",
+      "text": "Water the dog"
+    },
+    {
+      "title": "Test-Note-4",
+      "text": "Do the dishes"
+    }
+  ]
 }
