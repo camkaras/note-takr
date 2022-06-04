@@ -1,40 +1,32 @@
 {
   "notes": [
-    [
-      {
-        "title": "Test-Note-1",
-        "text": "Oranges are green??"
-      }
-    ],
-    [
-      {
-        "title": "Test-Note-2",
-        "text": "Apples make cheesestrings"
-      }
-    ],
     {
-      "title": "Test-Note-3",
-      "text": "Water the dog"
+      "title": "Doctor",
+      "text": "Tuesday, June 23rd\n"
     },
     {
-      "title": "Test-Note-4",
-      "text": "Do the dishes"
+      "title": "Dentist",
+      "text": "Monday"
     },
     {
-      "title": "hello",
-      "text": "hi"
+      "title": "Dogs Wedding ",
+      "text": "August 2nd"
     },
     {
-      "title": "hello",
-      "text": "hi"
+      "title": "Buy Tesla Stock",
+      "text": "The end times are coming"
     },
     {
-      "title": "test-note-5",
-      "text": "my cats green"
+      "title": "I Love JavaScript",
+      "text": "yay coding is fun\n"
     },
     {
-      "title": "test-note-5",
-      "text": "my cats green"
+      "title": "Is Fridge Running ",
+      "text": "Better go catch it lol"
+    },
+    {
+      "title": "Code ",
+      "text": "Everyday"
     }
   ]
 }

@@ -75,24 +75,24 @@ const handleNoteSave = () => {
     getAndRenderNotes();
     renderActiveNote();
   });
-  fetch('/api/notes', {
-    method: 'POST',
-    headers: {
-      Accept: 'application/json',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(newNote)
-  })
-    .then(response => {
-      if (response.ok) {
-        return response.json();
-      }
-      alert('Error: ' + response.statusText);
-    })
-    .then(postResponse => {
-      console.log(postResponse);
-      alert('Thank you for adding a new note!');
-    });
+  //fetch('/api/notes', {
+    //method: 'POST',
+    //headers: {
+      //Accept: 'application/json',
+      //'Content-Type': 'application/json'
+    //},
+    //body: JSON.stringify(newNote)
+  //})
+    //.then(response => {
+      //if (response.ok) {
+        //return response.json();
+      //}
+      //alert('Error: ' + response.statusText);
+    //})
+    //.then(postResponse => {
+      //console.log(postResponse);
+      //alert('Thank you for adding a new note!');
+    //});
 };
 
 // Delete the clicked note
